@@ -5,7 +5,7 @@ import random
 
 # --- KONFIGURASI ---
 THINGSBOARD_HOST = 'thingsboard.cloud'
-ACCESS_TOKEN = 'WKikT5qF9eWzjmXZJc2G'  # Token kamu yg tadi
+ACCESS_TOKEN = 'curl -v -X POST http://thingsboard.cloud/api/v1/WKikT5qF9eWzjmXZJc2G/telemetry --header Content-Type:application/json --data "{temperature:25}"'  # Token kamu yg tadi
 
 # Setup MQTT Client
 client = mqtt.Client()
