@@ -5,8 +5,8 @@ import json
 import time
 
 # --- GANTI DENGAN KUNCI SUPABASE LU (Wajib!) ---
-SUPABASE_URL = "YOUR_SUPABASE_URL" 
-SUPABASE_KEY = "YOUR_ANON_KEY" 
+SUPABASE_URL = "https://bytgqkpcjxpjbzhkwfrf.supabase.co" 
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5dGdxa3BjanhwamJ6aGt3ZnJmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjM4ODM0NjUsImV4cCI6MjA3OTQ1OTQ2NX0.mTNDUORV26iG_q6c-t6m-FTUIZj5mE1u2asd3Z3j1gw" 
 # -----------------------------------------------
 
 HIVE_HOST = "broker.hivemq.com"
