@@ -4,8 +4,9 @@ import time
 import random
 
 # --- KONFIGURASI ---
+# --- KONFIGURASI ---
 THINGSBOARD_HOST = 'thingsboard.cloud'
-ACCESS_TOKEN = 'WKikT5qF9eWzjmXZJc2G'
+ACCESS_TOKEN = 'WKikT5qF9eWzjmXZJc2G'  # <--- Cuma ini doang isinya
 # Setup MQTT Client
 client = mqtt.Client()
 client.username_pw_set(ACCESS_TOKEN)
