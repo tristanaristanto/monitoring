@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Monitoring PT. AMG - GitHub Pages</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script> 
+    <script src="dashboard.js" defer></script> 
+</head>
+<body>
+    <div id="app-container">
+        <nav id="sidebar">
+            <h2>Dashboard PT. AMG</h2>
+            <button onclick="loadContent('realtime')">1. Monitoring Real-time</button>
+            <button onclick="loadContent('tarif')">2. Setting Tarif & Biaya</button>
+            <button onclick="loadContent('trouble')">3. History Trouble</button>
+            <button onclick="loadContent('control')">4. Kontrol Sistem</button>
+        </nav>
+        
+        <main id="content">
+            <h1 style="text-align: center; margin-top: 50px;">Sistem Monitoring Energi Aktif</h1>
+        </main>
+    </div>
+</body>
+</html>
